@@ -1,0 +1,144 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+}
+
+p{
+    font-size:large;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    background-color: #f2c968;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+nav a{
+    padding-inline: 20px;
+}
+
+.btn{
+    padding: 10px 30px;
+    font-size: x-large;
+    color: #f2c968;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+}
+
+.carousel-item{
+    height: 600px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    color: aliceblue;
+    font-size: medium;
+    
+}
+.carousel-caption a{
+    border-radius: 50px;
+}
+
+.conteudo{
+    display: grid;
+    color: aliceblue;
+    grid-template-columns: auto auto auto;
+}
+
+.barra-lateral-esquerda{
+    background-color: darkred;
+}
+
+
+.barra-lateral-direita{
+    background-color: darkred;
+}
+
+.barra-lateral-direita img{
+    object-fit: cover;
+    width:250px; 
+    height:1600px;
+    margin: 15px;
+}
+
+.barra-lateral-esquerda img{
+    object-fit: cover;
+    width:250px; 
+    height:1600px;
+    margin: 15px;
+}
+
+.conteudo-principal{
+    padding: 20px 20px 20px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: darkred;
+}
+
+.bloco-conteudo{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.bloco-conteudo img{
+    object-fit: cover;
+    margin: 20px;
+    width:300px;
+    height:350px;
+}
+
+
+.textofinal{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.textofinal img{
+    object-fit: cover;
+    margin: 15px;
+    width:300px;
+    height:350px;
+    border-radius: 50%;
+}
+
+.bloco-patrocinadores{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:#f2c968;
+    border-radius: 50px;
+}
+
+.bloco-patrocinadores img{
+    width: 200px;
+    height: auto;
+    object-fit: fill;
+}
+
+
+footer{
+    background-color: brown;
+    color: aliceblue;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
